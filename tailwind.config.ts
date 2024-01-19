@@ -19,6 +19,7 @@ const config: Config = {
         neutral: {
           darkblue: "hsl(249, 10%, 26%)",
           grayishblue: "hsl(246, 25%, 77%)",
+          gray: "hsl(0, 0%, 87%)",
         },
       },
     },

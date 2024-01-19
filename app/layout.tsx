@@ -30,7 +30,7 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${poppins.className} flex min-h-screen flex-col items-center justify-center`}
+        className={`${poppins.className} bg-primary-red flex min-h-screen flex-col items-center justify-center bg-[url('../public/images/bg-intro-mobile.png')] bg-cover bg-center bg-no-repeat text-white sm:bg-[url('../public/images/bg-intro-desktop.png')]`}
       >
         {children}
       </body>

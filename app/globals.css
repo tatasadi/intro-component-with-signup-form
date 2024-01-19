@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  input {
+    @apply border-neutral-gray text-neutral-darkblue mb-4 w-full rounded-[0.3125rem] border px-[1.21rem] py-[0.94rem] text-[0.875rem] font-semibold leading-[1.625rem] tracking-[0.01563rem] placeholder:opacity-75;
+  }
+}
+
 @layer utilities {
   .footer-link {
     @apply cursor-pointer underline;
